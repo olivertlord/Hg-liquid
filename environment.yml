@@ -1,0 +1,22 @@
+name: Hg-liquid
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.24,<2.0
+  - pandas>=2.0,<3.0
+  - scipy>=1.10,<2.0
+  - matplotlib>=3.7,<4.0
+  - jupyterlab>=4.0
+  - ipywidgets>=8.0
+  - pip
+  - pip:
+    - burnman>=1.2.0
+    - uncertainties>=3.1.0
+    - numdifftools>=0.9.0
+    - arviz>=0.17.0
+    - itables>=1.6.0
+    - bibtexparser>=1.4.0
+    - session-info>=1.0.0
+    - vulture>=2.0.0
