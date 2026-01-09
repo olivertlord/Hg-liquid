@@ -1,6 +1,6 @@
 # High-Pressure Structure of Liquid Mercury
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_USERNAME/YOUR_REPO_NAME/main?filepath=Hg_melting.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/olivertlord/Hg-liquid/main?filepath=Hg_melting.ipynb)
 
 Jupyter notebook containing the code used for producing Figure 1 of the paper (the high-pressure phase diagram of mercury).
 
@@ -26,8 +26,8 @@ Click the "launch binder" badge above to run the notebook in your browser.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
+   git clone https://github.com/olivertlord/Hg-liquid.git
+   cd Hg-liquid
    ```
 
 2. **Create the conda environment:**
