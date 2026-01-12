@@ -1,28 +1,32 @@
-# High-Pressure Structure of Liquid Mercury
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/olivertlord/Hg-liquid/main?filepath=Hg_melting.ipynb)
 
-Jupyter notebook containing the code used for producing Figure 1 of the paper (the high-pressure phase diagram of mercury).
+### Supplementary information for
 
-## Authors
+## High-Pressure Structure of Liquid Mercury
 
-James W. E. Drewitt, Benedict J. Heinen, Elena-Marie Rogmann, Oliver T. Lord, Francesco Turci, Adrian C. Barnes, Craig W. Wilson, Simon G. Macleod, and Annette K. Kleppe
+#### James W. E. Drewitt<sup>a</sup>, Benedict J. Heinen<sup>a</sup>, Elena-Marie Rogmann<sup>a</sup>, Oliver T. Lord<sup>a</sup>, Francesco Turci<sup>a</sup>, Adrian C. Barnes<sup>a</sup>, Craig W. Wilson<sup>b</sup>, Simon G. Macleod<sup>b</sup>, and Annette K. Kleppe<sup>c</sup>
 
-**Notebook by:** Oliver T. Lord ([School of Earth Sciences, University of Bristol](http://www.bristol.ac.uk/earthsciences/))
+<sup>a</sup> School of Earth Sciences, University of Bristol, Wills Memorial Building, Queens Road, BS8 1RJ, United Kingdom
 
-## Description
+<sup>b</sup> AWE, Aldermaston, Reading, UK
+
+<sup>c</sup> Diamond Light Source, Rutherford Appleton Laboratory, Didcot, UK
+
+#### Jupyter Notebook Written by</a> [Oliver T Lord](mailto:oliver.lord@bristol.ac.uk), [(School of Earth Sciences, University of Bristol)](http://www.bristol.ac.uk/earthsciences/people/person/oliver-t-lord/overview.html)</a>
+
+### Description
 
 This notebook produces Figure 1 of the paper by:
 - Processing the experimental data from the *in situ* SXRD measurements made in an externally heated diamond anvil cell
 - Fitting Simon-Glatzel and Kechin melting curve models to the new phase state data as well as to previous data found in the literature
 
-## Running the Notebook
+### Running the Notebook
 
-### Option 1: MyBinder (no installation required)
+#### Option 1: MyBinder (no installation required)
 
 Click the "launch binder" badge above to run the notebook in your browser.
 
-### Option 2: Local Installation
+#### Option 2: Local Installation
 
 1. **Clone the repository:**
    ```bash
@@ -45,21 +49,21 @@ Click the "launch binder" badge above to run the notebook in your browser.
    jupyter notebook Hg_melting.ipynb
    ```
 
-## Required Input Files
+### Required Input Files
 
 The notebook requires the following data files (included in repository):
 - `Hg_data_summary_input.csv` - Experimental mercury data
 - `literature_data.csv` - Literature comparison data
 - `references.bib` - Bibliography in BibTeX format
 
-## Output Files
+### Output Files
 
 The notebook generates:
 - `Hg_PT.png` - Phase diagram figure
 - `Hg_data_summary_output.csv` - Processed data with calibrated pressures
 - `Hg_melting.py` - Python script version of the notebook (for code checking)
 
-## License
+### License
 
 Copyright © 2025 Oliver Lord
 
@@ -69,7 +73,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
 
-## Citation
+### Citation
 
 If you use this notebook in your research, please cite:
 
