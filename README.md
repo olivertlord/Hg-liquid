@@ -1,18 +1,54 @@
+<div align="center">
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/olivertlord/Hg-liquid/main?filepath=Hg_melting.ipynb)
 
-### Supplementary information for
+</div>
 
-## High-Pressure Structure of Liquid Mercury
+<div style="line-height:1.6; font-size:1.1em;">
 
-#### James W. E. Drewitt<sup>a</sup>, Benedict J. Heinen<sup>a</sup>, Elena-Marie Rogmann<sup>a</sup>, Oliver T. Lord<sup>a</sup>, Francesco Turci<sup>a</sup>, Adrian C. Barnes<sup>a</sup>, Craig W. Wilson<sup>b</sup>, Simon G. Macleod<sup>b</sup>, and Annette K. Kleppe<sup>c</sup>
+<p align="center"><i>Supplementary information for</i></p>
 
-<sup>a</sup> School of Earth Sciences, University of Bristol, Wills Memorial Building, Queens Road, BS8 1RJ, United Kingdom
+<h1 align="center" style="font-size:2.4em; margin-bottom:0.4em;">
+Structure of Liquid Mercury at High Pressure
+</h1>
 
-<sup>b</sup> AWE, Aldermaston, Reading, UK
+<p align="center" style="font-size:1.15em; font-weight:600;">
+James W. E. Drewitt<sup>a</sup>,
+Benedict J. Heinen<sup>b</sup>,
+Elena-Marie Rogmann<sup>b</sup>,
+Oliver T. Lord<sup>b</sup>,
+Francesco Turci<sup>a</sup>,
+Adrian C. Barnes<sup>a</sup>,
+Craig W. Wilson<sup>c</sup>,
+Simon G. Macleod<sup>c</sup>,
+and Annette K. Kleppe<sup>d</sup>
+</p>
 
-<sup>c</sup> Diamond Light Source, Rutherford Appleton Laboratory, Didcot, UK
+<p align="center">
+<sup>a</sup> School of Physics, University of Bristol, H.H. Wills Physics Laboratory, Tyndall Avenue, Bristol, BS8 1TL, United Kingdom
+<br>
+<sup>b</sup> School of Earth Sciences, University of Bristol, Wills Memorial Building, Queens Road, Bristol, BS8 1RJ, United Kingdom
+<br>
+<sup>c</sup> Atomic Weapons Establishment, Aldermaston, Reading RG7 4PR, United Kingdom
+<br>
+<sup>d</sup> Diamond Light Source Ltd, Diamond House, Harwell Science and Innovation Campus, Chilton OX11 0DE, United Kingdom
+</p>
 
-#### Jupyter Notebook Written by</a> [Oliver T Lord](mailto:oliver.lord@bristol.ac.uk), [(School of Earth Sciences, University of Bristol)](http://www.bristol.ac.uk/earthsciences/people/person/oliver-t-lord/overview.html)</a>
+<p align="center" style="font-size:1.05em;">
+Published in <i>Physical Review B</i> (2026)
+<br>
+DOI: <a href="https://doi.org/10.1103/nffz-z1g8"><b>10.1103/nffz-z1g8</b></a>
+</p>
+
+<p align="center">
+Jupyter Notebook written by
+<a href="mailto:oliver.lord@bristol.ac.uk">Oliver T. Lord</a>
+(<a href="http://www.bristol.ac.uk/earthsciences/people/person/oliver-t-lord/overview.html">School of Earth Sciences, University of Bristol</a>)
+</p>
+
+</div>
+
+---
 
 ### Description
 
@@ -52,20 +88,26 @@ Click the "launch binder" badge above to run the notebook in your browser.
 ### Required Input Files
 
 The notebook requires the following data files (included in repository):
-- `Hg_data_summary_input.csv` - Experimental mercury data
-- `literature_data.csv` - Literature comparison data
-- `references.bib` - Bibliography in BibTeX format
+- `Hg_data_summary_input.csv` — Experimental mercury data
+- `literature_data.csv` — Literature comparison data
+- `references.bib` — Bibliography in BibTeX format
 
 ### Output Files
 
 The notebook generates:
-- `Hg_PT.png` - Phase diagram figure
-- `Hg_data_summary_output.csv` - Processed data with calibrated pressures
-- `Hg_melting.py` - Python script version of the notebook (for code checking)
+- `Hg_PT.png` — Phase diagram figure
+- `Hg_data_summary_output.csv` — Processed data with calibrated pressures
+- `Hg_melting.py` — Python script version of the notebook (for code checking)
+
+### Citation
+
+If you use this notebook in your research, please cite:
+
+> Drewitt, J. W. E., Heinen, B. J., Rogmann, E.-M., Lord, O. T., Turci, F., Barnes, A. C., Wilson, C. W., Macleod, S. G., and Kleppe, A. K. *Structure of Liquid Mercury at High Pressure*, **Physical Review B** (2026). [doi.org/10.1103/nffz-z1g8](https://doi.org/10.1103/nffz-z1g8)
 
 ### License
 
-Copyright © 2025 Oliver Lord
+Copyright © 2026 Oliver Lord
 
 This notebook is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -73,12 +115,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
 
-### Citation
-
-If you use this notebook in your research, please cite:
-
-[Add citation information here when published]
-
-## Dependencies
+### Dependencies
 
 See `environment.yml` for a complete list of dependencies.
